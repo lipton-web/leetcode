@@ -8,9 +8,9 @@ var numberOfSteps = function(num) {
 
     while (obtain > 0) {
         if(obtain % 2 !== 0) {
-            obtain = obtain - 1
+            obtain -= 1
         } else {
-            obtain = obtain / 2
+            obtain /= 2
         }
         count ++
     }
